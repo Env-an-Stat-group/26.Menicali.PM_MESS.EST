@@ -3,7 +3,7 @@ import tensorflow as tf
 import pickle
 from functions import *
 
-suffix = 'MOE' # 'PINN' OR 'NPI'
+suffix = 'MOE' # 'PMNN' OR 'NPM'
   
 train_stop = 2015
 
