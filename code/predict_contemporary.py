@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from functions import *
 import gc
 
-suffix = 'MOE' #'PINN', 'NPI'
+suffix = 'MOE' #'PMNN', 'NPM'
   
 model_config = get_model_config('cases_st.txt', row_number)
 
