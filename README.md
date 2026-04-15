@@ -1,4 +1,4 @@
-# Supplemental codes for "A Spatiotemporal Physics-Informed State-Space Model of Lake Temperature Profiles"
+# Supplemental codes for "A Spatiotemporal Physics-Motivated State-Space Model of Lake Temperature Profiles"
 
 ## Data Setup and Running the Code
 
@@ -18,11 +18,11 @@
 4. **Train the PI-MESS model**
 
    The user should first create the training and testing datasets by running the create_training_dataset.py script. Then, run the `train_model.py` script. At the top of the `train_model.py` script, the toggle ''suffix'' controls which type of model is trained:
-   - 'MOE' for the PI-MESS model;
-   - 'PINN' for the PINN model;
-   - 'NPI' for the NN model.
+   - 'MOE' for the PM-MESS model;
+   - 'PMNN' for the PMNN model;
+   - 'NPM' for the NN model.
      
-   Default is PI-MESS. This will save the chosen model inside the `models` directory within the `code` directory. The figure below shows an illustration of the PI-MESS model architecture.
+   Default is PI-MESS. This will save the chosen model inside the `models` directory within the `code` directory. The figure below shows an illustration of the PM-MESS model architecture.
 
    ![DAG](figures/F2_DAG.png)
 
